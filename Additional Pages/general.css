@@ -79,6 +79,9 @@ h1,h2,h3,h4{
     align-items: center;
 }
 
-
+.boxes a::selection{
+    background: var(--primary-text);
+    color: var(--helper-color);
+}
 
 /* responsiveness */
