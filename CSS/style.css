@@ -481,15 +481,21 @@ header{
     .explore .para{
         margin: 0 0 0 7rem;
     }
-    .footer{
-        margin-left: 1.5rem;
-    }
+    
     .social{
-        margin-left: 2rem;
+        margin-left: 10rem;
     }
     .footer p{
-        margin-left: 2rem;
+        padding-left: 5rem;
     }
+    .footer-links{
+        display: flex;
+        align-items: center;
+        column-gap: 0.3rem;
+        padding-left: 5rem;
+        
+    }
+   
 }
 @media (max-width:325px){
     .header{
