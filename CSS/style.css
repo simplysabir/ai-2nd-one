@@ -329,7 +329,10 @@ header{
     background: var(--primary-text);
 } */
 
-
+.footer p::selection, .footer-links a::selection{
+    background: var(--primary-text);
+    color: var(--helper-color);
+}
 
 
 
